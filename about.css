@@ -1,0 +1,31 @@
+*{ 
+    margin: 0;
+    padding:0;
+    font-family:century gothic;
+  }
+  
+.container11{
+    display: grid;
+    grid-template-columns: 1480px ;
+    grid-template-rows: 273px ;
+    text-align: 10px;
+    background-color: rgb(35, 35, 236);  
+    height: 0px;
+    display: 10px;
+    padding-left: 20px;
+  }
+body{
+    background-image: url("");
+    display: inline-block; 
+    height :100uh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+.heading{
+  display: grid;
+  grid-template-columns:1524px ;
+  text-align: center;
+  background-color: rgb(25, 25, 225);  
+}
+    

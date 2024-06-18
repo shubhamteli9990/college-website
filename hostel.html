@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="hostel.css">
+</head>
+
+<body>
+
+  <!--css style-->
+  <style>
+    h1 {
+      color: rgb(243, 243, 248);
+      text-align: center;
+      padding: center;
+      font-size: 80px;
+      padding-bottom: 20px;
+    }
+
+    .col-4 {
+      width: 17.333333%;
+    }
+
+    .start-50 {
+      left: 19% !important;
+    }
+
+
+    .start-1 {
+      left: 0% !important;
+    }
+
+    .start-2 {
+
+      left: 50% !important;
+    }
+  </style>
+  <!--heading-->
+  <div class="heading">
+    <h1>Hostel :----</h1>
+  </div>
+
+
+  <!--navigation and buttons-->
+  <!--
+  <div class="container-md">
+    <a class="navbar-brand" href="#">
+
+
+      <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="margin: bottom 0;">
+        <div class="button" style="padding-left:362px;">
+        
+          <button type="button" class="btn btn-outline-primary">login</button>
+          <button type="button" class="btn btn-outline-secondary">room</button>
+          
+
+
+          <button type="button" class="btn btn-outline-success">Room</button>
+          <button type="button" class="btn btn-outline-danger">Meal</button>
+          <button type="button" class="btn btn-outline-warning">Fees</button>
+        </div>
+      </div>
+
+
+    </a>
+  </div>
+-->
+
+
+
+  <!--introduction college-->
+  <div class="container1">
+    <p>Manipal University Jaipur offers residential facilities, which are operated by GOOD HOST SPACES PVT. LTD (GHS).
+
+      GHS is a global leader in running student residences, offering new opportunities for students to live, learn, and
+      grow with the promise of a safe and secure environment while providing the right environment for studies and
+      overall development to all its resident students.
+
+      Our purpose-built accommodation options provide students with sophisticated, tech-forward housing during higher
+      education years. Accommodation is one of the biggest concerns for student and their families, and by providing a
+      safe environment, GHS creates a stable foundation upon which young students may build their academic careers. Our
+      sharp focus on security is designed to reassure parents while their children are away from home. Our hostel offers
+      a modern, safe and comfortable residence for students.
+
+      The Hostel is situated right across the street from the university campus and hence is easily accessible. It
+      offers a very convenient and pleasant walk to the University Campus with a connecting underpass (subway) to avoid
+      crossing the main road. Our state-of-the-art accommodation gives every student the feeling of a ‘home away from
+      home’.
+
+      The hostel is designed with comfortable, well-planned, safe, comfortable and contemporary accommodation with
+      convenient-to-use quality fittings. The hostel campus also offers a variety of restaurant options, convenience
+      stores, etc.
+
+      It has a well-equipped Gym, various recreation & sports facilities like Squash, Tennis, Basketball, Futsal,
+      Badminton, Snooker/Pool tables, etc. A multipurpose ground for Cricket, Football and Track events is also located
+      within the hostel grounds.
+
+      The entire facility is centrally air-conditioned and operational on a timely basis. A complete solution HVAC
+      (Heating, Ventilating, and Air-conditioning) system is in place. The hostel has dedicated power back-up in case of
+      power failure. The water supply is adequate and 24*7. The hostel is well connected with Jaipur city both by
+      government and private transport. Various engagement activities are hosted by the hostel authorities for the
+      resident students throughout the year.
+
+      The 6500+ student beds are spread across over 45 acres of green campus. Hostel blocks for Boys and Girls are
+      separate.
+
+      The hostel offers comfortable guesthouse facilities located within the hostel campus, for parents and visitors. It
+      is advised to plan visits and book accommodation to avoid the non-availability of rooms. For further inquiries
+      kindly write to guesthouse.jaipur@goodhostspaces.com
+    </p>
+  </div><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <!--image hostel-->
+  <img src="C:\Users\shubh\OneDrive\Desktop\git\shubham project\bootstrip\Screenshot (37).png" height="900"
+    width="1550"><br><br>
+
+
+  <!--scrollspy-->
+  <div class="row">
+    <div class="col-4">
+      <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end" style="padding-top:6px;">
+        <nav class="nav nav-pills flex-column" style="width:226px;">
+          <a class="nav-link" href="#item-1">Room</a>
+          <nav class="nav nav-pills flex-column">
+            <!--           
+            <a class="nav-link ms-3 my-1" href="#item-1-1">1-Bed</a>
+            <a class="nav-link ms-3 my-1" href="#item-1-2">2-Bed</a>
+          -->
+          </nav>
+          <a class="nav-link" href="#item-2">Meal</a>
+          <a class="nav-link" href="#item-3">Fees</a>
+          <nav class="nav nav-pills flex-column">
+            <!--
+            <a class="nav-link ms-3 my-1" href="#item-3-1">1-Bed Fees</a>
+            <a class="nav-link ms-3 my-1" href="#item-3-2">2-Bed Fees</a>
+
+            -->
+          </nav>
+          <a class="nav-link" href="#item-4">Rule</a>
+        </nav>
+      </nav>
+    </div>
+
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+        class="scrollspy-example-2" tabindex="0" style="height: 570px;width:1250px; padding-top: 9px;">
+        <div id="item-1">
+          <h2>Rooms:-</h2>
+          <h5>Mattresses would be available within the hostel premise by two vendors stationed on a chargeable basis or
+            one can get own mattress. Old and used mattresses are available on a request basis at no costwe have two
+            type of room
+            available in our hostel</h5>
+          <div class="position-relative">
+            <div class="position-absolute top-0 start-1">
+              <h5>*single bed(personal)</h5>
+            </div>
+            <div class="position-absolute top-0 start-2 translate-middle-x">
+              <h5>*double bed</h5>
+            </div><br><br>
+          </div>
+          <h4>Facilities for rooms:-</h4>
+          <h5>*Triple Seater Rooms<br>
+            *Beds<br>
+            *Wardrobe <br>
+            *Common wardrobe<br>
+            *Study Tables with chairs<br>
+            *Overhead Shelves for storage.<br>
+            *Universal Sockets at study tables and near Beds<br>
+            *window for fresh air/sunlight <br>
+          </h5>
+
+
+          <div id="item-2">
+            <h2>Messe:-</h2>
+            <p>
+            </p>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Weeks</th>
+                  <th scope="col">breakfast</th>
+                  <th scope="col">lunch</th>
+                  <th scope="col">refreshment</th>
+                  <th scope="col">dinner</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Monday</td>
+                  <td>8:00-9:00</td>
+                  <td>11:00-1:00</td>
+                  <td>4:00-4:30</td>
+                  <td>8:00-10:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Tuesday</td>
+                  <td>8:00-9:00</td>
+                  <td>11:00-1:00</td>
+                  <td>4:00-4:30</td>
+                  <td>8:00-10:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Wednesday</td>
+                  <td>8:00-9:00</td>
+                  <td>11:00-1:00</td>
+                  <td>4:00-4:30</td>
+                  <td>8:00-10:00</td>
+
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Thursday</td>
+                  <td>8:00-9:00</td>
+                  <td>11:00-1:00</td>
+                  <td>4:00-4:30</td>
+                  <td>8:00-10:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Friday</td>
+                  <td>8:00-9:00</td>
+                  <td>11:00-1:00</td>
+                  <td>4:00-4:30</td>
+                  <td>8:00-10:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Saturday</td>
+                  <td>8:00-9:00</td>
+                  <td>11:00-1:00</td>
+                  <td>4:00-4:30</td>
+                  <td>8:00-10:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>Sunday(Special)</td>
+                  <td>8:00-9:00</td>
+                  <td>11:00-1:00</td>
+                  <td>4:00-4:30</td>
+                  <td>8:00-10:00</td>
+                </tr>
+              </tbody>
+            </table>
+            <h5>Note:-<br>
+              1. Lime juice will be served during lunch on all days.<br>
+              2. Egg will be served at extra cost on all days.<br>
+              3. Milk will be served in the night at extra cost on all days.<br><br>
+            </h5>
+          </div>
+          <div id="item-3">
+            <h2> Fee Structure for academic year 2022 – 2023:-</h2>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Room</th>
+                  <th scope="col">Non-Ac Room</th>
+                  <th scope="col">AC Room</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>1-Bed Room</td>
+                  <td>48,000</td>
+                  <td> 62,000</td>
+
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>2-Bed Room</td>
+                  <td>70,000</td>
+                  <td>82,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>3-Bed Room</td>
+                  <td>1,05,000</td>
+                  <td>1,20,000</td>
+                </tr>
+              </tbody>
+            </table>
+            <h5>Any damages would be charged directly to the students</h5><br>
+          </div>
+
+
+          <div id="item-4">
+            <h2>Role & Regulations:-</h2>
+            <h5>(1) hostel open & closeing time:-5:00 am to 10:00 pm<br>
+              (2) please maintain clean hygiene in hostel premises <br>
+              (3) shouting & volices is strictly prohibited in hostel premises <br>
+              (4) please don't damage hostel furniture & property otherwise fine will be charged <br>
+              (5) All rules & regulation are compulsory to follow
+            </h5><br><br>
+
+
+
+
+
+            <nav aria-label="...">
+              <ul class="pagination">
+                <li class="page-item disabled">
+                  <span class="page-link">Previous</span>
+                </li>
+                <li class="page-item"><a class="page-link"
+                    href="file:///C:/Users/shubh/OneDrive/Desktop/bootstrip/2.html">1</a></li>
+                <li class="page-item"><a class="page-link"
+                    href="file:///C:/Users/shubh/OneDrive/Desktop/bootstrip/student.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="">3</a></li>
+                <li class="page-item active" aria-current="page">
+                  <span class="page-link">4</span>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div><br>
+    </div>
+  </div>
+  
+
+
+      <!--footer-->
+      <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+
+          <div class="row text-center text-md-left">
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weigth-bold text-warning">company name</h5>
+              <p>here you can use rows and columns to organize your footer content .lorem ipsum dolor sit amet,
+                ital consectetur lorem ipsum dolor sdksajkjadjsfklajdsj</p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weigth-bold text-warning">products</h5>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">theprovider</h5>
+              </p>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">creativity</h5>
+              </p>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">sourcefiles</h5>
+              </p>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">bootstip</h5>
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weigth-bold text-warning">products</h5>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">theprovider</h5>
+              </p>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">creativity</h5>
+              </p>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">sourcefiles</h5>
+              </p>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">bootstip</h5>
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weigth-bold text-warning">usefull</h5>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">your account</h5>
+              </p>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">affilliates</h5>
+              </p>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">shipping</h5>
+              </p>
+              <p>
+              <h5 href="" class="text-white" style="text-decoration: none;">Help</h5>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weigth-bold text-warning">contact</h5>
+              <p>
+                <i class="fas fa-home mr-3"></i> Patel Nagar,Near By Mira Circle
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> theswiftcollege34@gmai.com
+              </p>
+              <p>
+                <i class="fas fa-phone mr-3"></i> +91 7483747843
+              </p>
+              <p>
+                <i class="fas fa-print mr-3"></i> +01 34 232 234 34
+              </p>
+            </div>
+          </div>
+
+          <hr class="md-4">
+
+
+          <!--footer down-->
+          <div class="row align-items-center">
+
+            <div class="col-md-7 col-lg-4">
+              <p>copyright 02020 all right reserved
+                <a href="#" style="text-decoration:none;">
+                  <strong class="text-warning">swift.infid</strong>
+                </a>
+              </p>
+            </div>
+
+            <!--apps link-->
+            <div class="col-md-5 col-lg-8">
+              <div class="text-center text-md-right ">
+                <ul class="list-unstyle list-inline">
+                  <li class="list-inline-item ">
+                    <a href="https://www.facebook.com/SwiftCollege.bhilwara" class="btn-floating btn-sm text-white"
+                      style="font-size:23px;"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i
+                        class="fab fa-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i
+                        class="fab fa-google-plus"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i
+                        class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.instagram.com/swift_and_inifd.bhilwara/" class="btn-floating btn-sm text-white"
+                      style="font-size:23px;"><i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </footer>
+
+</body>
+
+</html>

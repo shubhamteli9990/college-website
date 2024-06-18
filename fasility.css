@@ -1,0 +1,108 @@
+*{ 
+    margin: 0;
+    padding:0;
+    font-family:century gothic;
+  }
+  
+.container1{
+    display: grid;
+    grid-template-columns: 500px ;
+    grid-template-rows: 350px ;
+    text-align: 10px;
+    background-color: rgb(35, 35, 236);  
+    height: 0px;
+    display: 10px;
+    padding-left: 28px;
+  }
+  .container2{
+    display: grid;
+    grid-template-columns: 925px ;
+    grid-template-rows: 40px ;
+    text-align: 10px;
+    background-color: rgb(35, 35, 236);  
+    height: 0px;
+    display: 10px;
+    padding-left: 577px;
+  }
+  
+  .container3{
+    display: grid;
+    grid-template-columns: 925px ;
+    grid-template-rows: 40px ;
+    text-align: 10px;
+    background-color: rgb(35, 35, 236);  
+    height: 0px;
+    display: 10px;
+    padding-left: 28px;
+  }
+  .container4{
+    display: grid;
+    grid-template-columns: 231px ;
+    grid-template-rows: 157px ;
+    text-align: 10px;
+    background-color: rgb(35, 35, 236);  
+    height: 0px;
+    display: 10px;
+    padding-left: 986px;
+  }
+  
+  .container5{
+    display: grid;
+    grid-template-columns: 231px ;
+    grid-template-rows: 157px ;
+    text-align: 10px;
+    background-color: rgb(35, 35, 236);  
+    height: 0px;
+    display: 10px;
+    padding-left: 28px;
+  }
+  .container6{
+    display: grid;
+    grid-template-columns: 925px ;
+    grid-template-rows: 40px ;
+    text-align: 10px;
+    background-color: rgb(52, 52, 218);  
+    height: 0px;
+    display: 10px;
+    padding-left: 577px;
+  }
+  
+  .container7{
+    display: grid;
+    grid-template-columns: 500px ;
+    grid-template-rows: 40px ;
+    text-align: 10px;
+    background-color: rgb(35, 35, 236);  
+    height: 0px;
+    display: 10px;
+    padding-left: 1000px;
+  }
+  .container8{
+    display: grid;
+    grid-template-columns: 950px ;
+    grid-template-rows: 40px ;
+    text-align: 10px;
+    background-color: rgb(35, 35, 236);  
+    height: 0px;
+    display: 10px;
+    padding-left: 20px;
+  }
+
+  .container11{
+    display: grid;
+    grid-template-columns: 1480px ;
+    grid-template-rows: 273px ;
+    text-align: 10px;
+    background-color: rgb(35, 35, 236);  
+    height: 0px;
+    display: 10px;
+    padding-left: 20px;
+  }
+  
+.heading{
+  display: grid;
+  grid-template-columns:1524px ;
+  text-align: center;
+  background-color: rgb(25, 25, 225);  
+}
+    
