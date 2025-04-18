@@ -5,13 +5,6 @@ Hello everyone, my name is Shubham. I am working on a project to create a colleg
 
 https://github.com/user-attachments/assets/9a8f9e8f-9bf9-4f5e-ad61-ed0aa8cd30a7
 
-
-
-
-https://github.com/user-attachments/assets/93af5810-8079-42e8-80d8-348568707eff
-
-
-
 # how to setup the project in our pc
 Step 1: Download and Extract the ZIP File
    Download the zip file from the source location.
