@@ -1,8 +1,16 @@
 # college-website
 Hello everyone, my name is Shubham. I am working on a project to create a college website. This website will make it easy for students and visitors to find information about the different facilities and resources the college offers. Users can learn about the services available, the academic programs, campus amenities, and more.
 
-#Home Page
-![Screenshot (46)](https://github.com/user-attachments/assets/39a56d9e-3f4e-42ee-aa45-b4fb48e485b0)
+#Video
+
+https://github.com/user-attachments/assets/9a8f9e8f-9bf9-4f5e-ad61-ed0aa8cd30a7
+
+
+
+
+https://github.com/user-attachments/assets/93af5810-8079-42e8-80d8-348568707eff
+
+
 
 # how to setup the project in our pc
 Step 1: Download and Extract the ZIP File
